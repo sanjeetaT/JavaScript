@@ -12,4 +12,14 @@
      sentence += "a lot from this book!"; // defining sentence
      document.getElementById("Concatenate").innerHTML = sentence; // result
  }
+
+ function name(p1, p2){
+     return p1 * p2;
+ }
+ document.getElementsById("demo");
+
+ function addition_function(){
+     var addition = 2+2;
+     document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
+      }
 <script src="JS/main.js"></script>
