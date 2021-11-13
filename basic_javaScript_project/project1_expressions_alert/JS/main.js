@@ -1,4 +1,4 @@
-<script src="main.js"></script>
+
 window.alert("Hello, world");
 document.write('Hello, world');
 var A = "This is a string";
@@ -11,8 +11,16 @@ document.write(B)
 var Family = "The Arezzinis", Dad = "Jermiah", Mom = "Hermoine", Daughter = "Penny" , son = "Zorro";
 document.write(Dad);
 document.write("Lisa told Bart, \"knok it off, Bart! or I'll tell dad!\"<br>\Eat my shorts!\" Bart respponded.");
+/* concatenate variable*/
+ function my_car(){
+ var carColor = "red";
+ var carYear = "2013";
+ var carDoors = 5;
+ var bought = "you have bought the car with color " + carColor + " from the year " + carYear + " that has " + carDoors + " doors ";
+  document.write(bought);
+ }
 
-
+  
 
 var blues = "I have the blues";
 var blue = blues.fontcolor("blue");
@@ -26,4 +34,4 @@ document.write(blues);
   var result = str.fontcolor("green"); // using the fontcolor method on string value
   document.getElementById("Green_Text").innerHTML = result; // putting the value of result into HTML element
   }
- <script src="JS/main.js"></script>
+ 
