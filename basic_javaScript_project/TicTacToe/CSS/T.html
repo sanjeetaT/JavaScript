@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Play Tic Tac Toe Online</title>
+        <h1> Tic Tac Toe Game</h1>
+        <script src="js/tictactoe.js" defer></script>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    </head>
+    
+<body>
+<p id="Greeting" onclick="get_data()">Click here</p>
+<p id="demo"></p>
+<script>
+    const numbers = [45, 4, 9, 16, 25];
+    let someOver18 = numbers.some(myFunction);
+    
+    document.getElementById("demo").innerHTML = "Some over 18 is " + someOver18;
+    
+    function myFunction(value, index, array) {
+      return value > 18;
+    }
+    </script>
+
+</body>
+</html>
