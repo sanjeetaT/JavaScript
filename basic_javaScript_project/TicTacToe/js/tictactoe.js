@@ -19,7 +19,7 @@ function placeXorO(squareNumber){
         }
 
         //square number and activeplayer are connected together.
-        selectSquares.push(squareNumber + activePlayer);
+        selectedSquares.push(squareNumber + activePlayer);
         // This call a function for check any condition
         checkWinCondition();
         // This condition is for changing the active player
