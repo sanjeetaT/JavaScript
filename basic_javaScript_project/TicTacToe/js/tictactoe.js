@@ -1,7 +1,7 @@
 // This variable keeps track of whose turn it is.
 let activePlayer = 'X';
 // This array stores an array of moves .We must determine with condition.
-let selectSquares = [];
+let selectedSquares = [];
 
 // This function is for placing an x or o in a square
 function placeXorO(squareNumber){
@@ -25,7 +25,7 @@ function placeXorO(squareNumber){
         // This condition is for changing the active player
         if(activePlayer === 'X'){
             // if active player is x chage it to 'o'.
-            activePlayer = 'o';
+            activePlayer = 'O';
 
             // if active player anything other than 'X'.
 
@@ -39,7 +39,7 @@ function placeXorO(squareNumber){
         // This is  a function plays placement sound.
 audio('./media/place.mp3');
 // This condition checks to see if it is computers turn.
-if(activePlayer ==='o'){
+if(activePlayer ==='O'){
     // This function disables clicking for computer choice.
     disableClick();
     //This function waits 1 second before computer places image and enables click.
@@ -108,8 +108,8 @@ function checkWinCondition(){
     // O, 0,4, 8 condition.
     else if  (arrayIncludes('0O', '4O', '8O')) { drawWinLine(100, 100, 520, 520)}
 
-    else if(selectSquares.length >= 9) {
-        Audio('./media/tie.mp3');
+    else if(selectedSquares.length >= 9) {
+        audio('./media/tie.mp3');
         // This function sets a .3 second timer before the reset game
         setTimeout(function() {resetGame();}, 1000);
     }
@@ -192,7 +192,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2){
             if(x < x2) { x += 10;}
              // This condion add to the previous the end y points.
              if( y< y2) { y += 10;}
-        }
+        
 
         // This condition cancels our animation loop 
         // if we reached the end points
@@ -242,6 +242,4 @@ function resetGame(){
     // this resets our array so it is empty and we can start over.
     selectedSquares = [];
 }
-
-
-
+}
