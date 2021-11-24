@@ -159,9 +159,9 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2){
      // This lines indicates where the start of the lines Y axis is.
       y1 = coordY1,
        // This lines indicates where the start of the lines X axis is.
-      x2 = coordX2
+      x2 = coordX2,
         // This lines indicates where the start of the lines X axis is.
-        y2 = coordY2
+        y2 = coordY2,
 
         // This variable stores temporary x axix data we update our animation loop.
          x = x1,
@@ -207,6 +207,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2){
         if(x >= x2 && y <= y2){ cancelAnimationFrame(animationLoop); }
 
     }
+}
 
 
 // This function clears our canves after our win line is drawn.
@@ -241,5 +242,4 @@ function resetGame(){
     }
     // this resets our array so it is empty and we can start over.
     selectedSquares = [];
-}
 }
