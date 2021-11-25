@@ -1,6 +1,0 @@
-fe80::887d:5ad4:fade:f4a5 - - [24/Nov/2021:19:25:46 -0800] "OPTIONS / HTTP/1.1" 302 - "-" "DavClnt"
-fe80::887d:5ad4:fade:f4a5 - - [24/Nov/2021:19:25:46 -0800] "OPTIONS /dashboard/ HTTP/1.1" 200 - "-" "DavClnt"
-fe80::887d:5ad4:fade:f4a5 - - [24/Nov/2021:19:25:49 -0800] "OPTIONS /IPC%24 HTTP/1.1" 200 - "-" "Microsoft-WebDAV-MiniRedir/10.0.22000"
-fe80::887d:5ad4:fade:f4a5 - - [24/Nov/2021:19:35:54 -0800] "OPTIONS /IPC%24 HTTP/1.1" 200 - "-" "Microsoft-WebDAV-MiniRedir/10.0.22000"
-fe80::887d:5ad4:fade:f4a5 - - [24/Nov/2021:21:57:20 -0800] "OPTIONS /IPC%24 HTTP/1.1" 200 - "-" "Microsoft-WebDAV-MiniRedir/10.0.22000"
-fe80::887d:5ad4:fade:f4a5 - - [24/Nov/2021:22:11:43 -0800] "OPTIONS /IPC%24 HTTP/1.1" 200 - "-" "Microsoft-WebDAV-MiniRedir/10.0.22000"
